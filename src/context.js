@@ -22,12 +22,18 @@ this.setState(()=>{
   return {products:tempProducts}
 })
 }
-handleDetail = () => {
-    console.log('hello from detail')
-}
-addToCart = () => {
-    console.log('hello from add to cart')
-}
+getItem = (id)=>{
+  const product= this.state.products.find(item=>item.id === id);return product
+};
+handleDetail = (id) => {
+    const product = this.getItem();
+    this.setState(()=>{
+      return {detailProduct:product}
+    })
+};
+addToCart = (id) => {
+    console.log('product id added to cart', id)
+};
 
   render() {
     return (
