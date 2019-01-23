@@ -12,6 +12,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ####Discription
 
-React.js mock online store using the context API for state mangment and stytled components for css
+React.js mock online ecommerce store
+Context API used
+Styled components
 
 HAPPY HACKING!
