@@ -4,6 +4,7 @@
   --mainWhite:#f3f3f3;
   --mainDark:#232528;
   --mainYellow:#ffa400;
+  --mainRed:#aa1414;
 }
 
 body{
@@ -22,4 +23,31 @@ body{
 }
 .text-bright{
   color:var(--lightBlue);
+}
+.btn-black{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: .8rem !important;
+  color:var(--mainDark);
+  border-radius: 0 !important;
+  border: .1rem solid var(--mainDark) !important;
+}
+.btn-black-no-hover{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: .8rem !important;
+  color:var(--mainDark);
+  border-radius: 0 !important;
+  border: .1rem solid var(--mainDark) !important;
+}
+
+.btn-black:hover{
+  background: var(--mainDark) !important;
+  color:var(--mainWhite) !important;
+}
+
+.cart-icon{
+  cursor:pointer;
+  font-size: 1.2rem;
+  color:var(--mainRed);
 }
