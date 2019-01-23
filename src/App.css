@@ -39,6 +39,7 @@ body{
   color:var(--mainDark);
   border-radius: 0 !important;
   border: .1rem solid var(--mainDark) !important;
+  cursor: default !important;
 }
 
 .btn-black:hover{
