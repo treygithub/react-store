@@ -5,6 +5,7 @@
   --mainDark:#232528;
   --mainYellow:#ffa400;
   --mainRed:#aa1414;
+  --mainGreen:rgb(8, 175, 8);
 }
 
 body{
@@ -24,7 +25,16 @@ body{
 .text-bright{
   color:var(--lightBlue);
 }
-.btn-black{
+
+.btn-black-decrement{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: .8rem !important;
+  color:var(--mainDark);
+  border-radius: 0 !important;
+  border: .1rem solid var(--mainDark) !important;
+}
+.btn-black-increment{
   background: transparent;
   text-transform: capitalize;
   font-size: .8rem !important;
@@ -42,10 +52,15 @@ body{
   cursor: default !important;
 }
 
-.btn-black:hover{
-  background: var(--mainDark) !important;
+.btn-black-decrement:hover{
+  background: var(--mainRed) !important;
   color:var(--mainWhite) !important;
 }
+.btn-black-increment:hover{
+  background: var(--mainGreen) !important;
+  color:var(--mainWhite) !important;
+}
+
 
 .cart-icon{
   cursor:pointer;
