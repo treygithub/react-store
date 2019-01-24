@@ -16,4 +16,6 @@ React.js mock online ecommerce store
 Context API used
 Styled components
 
+HOSTED LIVE HERE https://robert-hunnicutt-react-store.netlify.com/
+
 HAPPY HACKING!
