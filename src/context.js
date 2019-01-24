@@ -92,7 +92,7 @@ decrement = (id) =>{
   const product = tempCart[index];
   product.count = product.count - 1;
   if(product.count === 0 ){
-    this.removeItem(id)
+    this.deleteItem(id)
   }else{
     product.total = product.count * product.price;
     this.setState(()=>{
